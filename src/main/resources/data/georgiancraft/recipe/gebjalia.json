@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "wbw",
+    "wsw",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "georgiancraft:sulguni"
+    ],
+    "s": [
+      "minecraft:milk_bucket"
+    ],
+    "b": [
+      "minecraft:kelp"
+    ]
+  },
+  "result": {
+    "id": "georgiancraft:gebjalia",
+    "count": 1
+  }
+}

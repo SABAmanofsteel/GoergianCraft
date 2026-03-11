@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "georgiancraft:entity/svanuri_phari_base"
+    }
+  ]
+}

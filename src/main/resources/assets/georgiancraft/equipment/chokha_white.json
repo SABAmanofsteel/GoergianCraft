@@ -1,0 +1,6 @@
+{
+  "layers": {
+    "humanoid": [{ "texture": "georgiancraft:chokha_white" }],
+    "humanoid_leggings": [{ "texture": "georgiancraft:chokha_white" }]
+  }
+}

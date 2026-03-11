@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.georgiancraft.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"SvanuriPhariMixin",
+		"GordaWolfMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

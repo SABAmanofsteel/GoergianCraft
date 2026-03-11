@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "wbw",
+    "wsw",
+    "wsw"
+  ],
+  "key": {
+    "w": [
+      "georgiancraft:grape"
+    ],
+    "s": [
+      "minecraft:pumpkin_seeds"
+    ],
+    "b": [
+      "minecraft:string"
+    ]
+  },
+  "result": {
+    "id": "georgiancraft:churchkhela",
+    "count": 1
+  }
+}

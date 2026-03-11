@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "flag": "georgiancraft:block/georgian_flag_left",
+    "particle": "georgiancraft:block/georgian_flag"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 7.5],
+      "to": [16, 16, 8.5],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#flag"},
+        "south": {"uv": [16, 0, 0, 16], "texture": "#flag"},
+        "west": {"uv": [0, 0, 1, 16], "texture": "#flag"},
+        "east": {"uv": [15, 0, 16, 16], "texture": "#flag"},
+        "up": {"uv": [0, 0, 16, 1], "texture": "#flag"},
+        "down": {"uv": [0, 15, 16, 16], "texture": "#flag"}
+      }
+    }
+  ]
+}

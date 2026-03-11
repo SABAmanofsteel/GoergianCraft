@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " w ",
+    " s "
+  ],
+  "key": {
+    "w": [
+      "minecraft:cooked_chicken"
+    ],
+    "s": [
+      "minecraft:milk_bucket"
+    ]
+  },
+  "result": {
+    "id": "georgiancraft:shkmeruli",
+    "count": 1
+  }
+}

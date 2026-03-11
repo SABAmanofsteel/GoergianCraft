@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "w w",
+    "www"
+  ],
+  "key": {
+    "w": [
+      "minecraft:kelp"
+    ]
+  },
+  "result": {
+    "id": "georgiancraft:pkhali",
+    "count": 3
+  }
+}

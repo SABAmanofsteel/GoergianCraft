@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  J",
+    " J ",
+    "J  "
+  ],
+  "key": {
+    "J": "minecraft:porkchop"
+  },
+  "result": {
+    "id": "georgiancraft:lori",
+    "count": 1
+  }
+}

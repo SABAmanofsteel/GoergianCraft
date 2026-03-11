@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "bites=0": { "model": "georgiancraft:block/khachapuri_0" },
+    "bites=1": { "model": "georgiancraft:block/khachapuri_1" },
+    "bites=2": { "model": "georgiancraft:block/khachapuri_2" },
+    "bites=3": { "model": "georgiancraft:block/khachapuri_3" },
+    "bites=4": { "model": "georgiancraft:block/khachapuri_4" },
+    "bites=5": { "model": "georgiancraft:block/khachapuri_5" },
+    "bites=6": { "model": "georgiancraft:block/khachapuri_6" },
+    "bites=7": { "model": "georgiancraft:block/khachapuri_7" }
+  }
+}

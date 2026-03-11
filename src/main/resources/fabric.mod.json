@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "georgiancraft",
+	"version": "${version}",
+	"name": "georgiancraft",
+	"description": "This is my first mod and its about my country",
+	"authors": [
+		"LambWolf"
+	],
+	"license": "All Rights Reserved",
+	"icon": "assets/georgiancraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.georgiancraft.georgiancraft"
+		],
+		"fabric-datagen": [
+			"com.georgiancraft.georgiancraftDataGenerator"
+		],
+		"client": [
+			"com.georgiancraft.georgiancraftClient"
+		]
+	},
+	"mixins": [
+		"georgiancraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"accessWidener": "georgiancraft.accesswidener"
+}

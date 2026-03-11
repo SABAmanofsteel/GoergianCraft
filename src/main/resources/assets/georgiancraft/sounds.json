@@ -1,0 +1,10 @@
+{
+  "item.salamuri.play": {
+    "sounds": [
+      {
+        "name": "georgiancraft:item/salamuri_play",
+        "stream": false
+      }
+    ]
+  }
+}

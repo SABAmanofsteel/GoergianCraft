@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s s",
+    "sws",
+    "sss"
+  ],
+  "key": {
+    "w": [
+      "minecraft:white_wool"
+    ],
+    "s": [
+      "minecraft:black_wool"
+    ]
+  },
+  "result": {
+    "id": "georgiancraft:svanuri_chestplate",
+    "count": 1
+  }
+}

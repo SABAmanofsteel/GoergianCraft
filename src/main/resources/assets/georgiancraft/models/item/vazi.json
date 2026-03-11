@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "georgiancraft:block/vazi_leaves"
+  }
+}

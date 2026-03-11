@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bws",
+    "www",
+    "swb"
+  ],
+  "key": {
+    "w": [
+      "minecraft:yellow_wool"
+    ],
+    "s": [
+      "minecraft:red_wool"
+    ],
+    "b": [
+      "minecraft:blue_wool"
+    ]
+  },
+  "result": {
+    "id": "georgiancraft:megruli_flag",
+    "count": 1
+  }
+}

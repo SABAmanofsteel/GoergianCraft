@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,part=left": { "model": "georgiancraft:block/megruli_flag_left" },
+    "facing=east,part=left": { "model": "georgiancraft:block/megruli_flag_left", "y": 90 },
+    "facing=south,part=left": { "model": "georgiancraft:block/megruli_flag_left", "y": 180 },
+    "facing=west,part=left": { "model": "georgiancraft:block/megruli_flag_left", "y": 270 },
+
+    "facing=north,part=right": { "model": "georgiancraft:block/megruli_flag_right" },
+    "facing=east,part=right": { "model": "georgiancraft:block/megruli_flag_right", "y": 90 },
+    "facing=south,part=right": { "model": "georgiancraft:block/megruli_flag_right", "y": 180 },
+    "facing=west,part=right": { "model": "georgiancraft:block/megruli_flag_right", "y": 270 }
+  }
+}

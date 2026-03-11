@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "wsw",
+    "wsw"
+  ],
+  "key": {
+    "w": [
+      "georgiancraft:grape"
+    ],
+    "s": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "georgiancraft:vazi",
+    "count": 1
+  }
+}

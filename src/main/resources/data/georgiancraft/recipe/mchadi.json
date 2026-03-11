@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "b": [
+      "minecraft:wheat"
+    ]
+  },
+  "result": {
+    "id": "georgiancraft:mchadi",
+    "count": 3
+  }
+}

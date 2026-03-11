@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " w ",
+    " s "
+  ],
+  "key": {
+    "s": "minecraft:blaze_rod",
+    "w": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "georgiancraft:amiran_chain",
+    "count": 1
+  }
+}

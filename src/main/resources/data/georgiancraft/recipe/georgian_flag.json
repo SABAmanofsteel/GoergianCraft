@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sws",
+    "www",
+    "sws"
+  ],
+  "key": {
+    "w": [
+      "minecraft:red_wool"
+    ],
+    "s": [
+      "minecraft:white_wool"
+    ]
+  },
+  "result": {
+    "id": "georgiancraft:georgian_flag",
+    "count": 1
+  }
+}

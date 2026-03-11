@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": ["gui"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "georgiancraft:item/georgian_flag"
+        }
+      },
+      {
+        "when": [
+          "firstperson_lefthand",
+          "firstperson_righthand",
+          "thirdperson_lefthand",
+          "thirdperson_righthand"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "georgiancraft:item/georgian_flag"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "georgiancraft:item/georgian_flag"
+    }
+  }
+}
