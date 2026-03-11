@@ -14,6 +14,7 @@ import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+import net.minecraft.entity.data.DataTracker;
 
 public class AmiranChainEntity extends ThrownItemEntity {
 
@@ -32,6 +33,10 @@ public class AmiranChainEntity extends ThrownItemEntity {
         super(ModEntities.AMIRAN_CHAIN, world);
         setOwner(owner);
         setPosition(owner.getX(), owner.getEyeY() - 0.1, owner.getZ());
+    }
+    @Override
+    protected void initDataTracker(DataTracker.Builder builder) {
+        super.initDataTracker(builder);
     }
 
     @Override
