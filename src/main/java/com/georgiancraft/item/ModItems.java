@@ -44,6 +44,44 @@ import java.util.Map;
 public class ModItems {
 
     public static final int BASE_DURABILITY = 15;
+    // ── Coins ──────────────────────────────────────────────────────────────────
+    // ── Coins ──────────────────────────────────────────────────────────────────
+    public static final Item STONE_COIN = registerItem(
+            "stone_coin",
+            new Item(new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "stone_coin")))
+            )
+    );
+    public static final Item COPPER_COIN = registerItem(
+            "copper_coin",
+            new Item(new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "copper_coin")))
+            )
+    );
+    public static final Item IRON_COIN = registerItem(
+            "iron_coin",
+            new Item(new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "iron_coin")))
+            )
+    );
+    public static final Item GOLD_COIN = registerItem(
+            "gold_coin",
+            new Item(new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "gold_coin")))
+            )
+    );
+    public static final Item DIAMOND_COIN = registerItem(
+            "diamond_coin",
+            new Item(new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "diamond_coin")))
+            )
+    );
+    public static final Item NETHERITE_COIN = registerItem(
+            "netherite_coin",
+            new Item(new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "netherite_coin")))
+            )
+    );
 
     // ── Default (dark) Chokha ──────────────────────────────────────────────────
     public static final RegistryKey<EquipmentAsset> GUIDITE_ARMOR_MATERIAL_KEY = RegistryKey.of(
@@ -438,6 +476,13 @@ public class ModItems {
             entries.add(PKHALI);
             entries.add(LORI);
             entries.add(SHKMERULI);
+            //coins
+            entries.add(STONE_COIN);
+            entries.add(COPPER_COIN);
+            entries.add(IRON_COIN);
+            entries.add(GOLD_COIN);
+            entries.add(DIAMOND_COIN);
+            entries.add(NETHERITE_COIN);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {

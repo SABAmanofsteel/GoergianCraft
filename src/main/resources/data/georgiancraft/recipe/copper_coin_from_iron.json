@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "georgiancraft:iron_coin"}
+  ],
+  "result": {"id": "georgiancraft:copper_coin", "count": 8}
+}

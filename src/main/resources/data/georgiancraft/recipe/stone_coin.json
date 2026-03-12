@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:stone"},
+    {"item": "minecraft:stone"},
+    {"item": "minecraft:stone"},
+    {"item": "minecraft:stone"},
+    {"item": "minecraft:stone"},
+    {"item": "minecraft:stone"},
+    {"item": "minecraft:stone"},
+    {"item": "minecraft:stone"}
+  ],
+  "result": {"id": "georgiancraft:stone_coin", "count": 1}
+}

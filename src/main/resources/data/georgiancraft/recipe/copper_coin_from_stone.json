@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "georgiancraft:stone_coin"},
+    {"item": "georgiancraft:stone_coin"},
+    {"item": "georgiancraft:stone_coin"},
+    {"item": "georgiancraft:stone_coin"},
+    {"item": "georgiancraft:stone_coin"},
+    {"item": "georgiancraft:stone_coin"},
+    {"item": "georgiancraft:stone_coin"},
+    {"item": "georgiancraft:stone_coin"}
+  ],
+  "result": {"id": "georgiancraft:copper_coin", "count": 1}
+}

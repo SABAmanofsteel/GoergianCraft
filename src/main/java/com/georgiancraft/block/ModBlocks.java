@@ -18,6 +18,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
+
     public static final Block WINE_CAULDRON = registerBlock(
             "wine_cauldron",
             new WineCauldronBlock(
