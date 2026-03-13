@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "sws",
+    "bbb"
+  ],
+  "key": {
+    "w": [
+      "georgiancraft:sulguni"
+    ],
+    "s": [
+      "minecraft:egg"
+    ],
+    "b": [
+      "minecraft:wheat"
+    ]
+  },
+  "result": {
+    "id": "georgiancraft:guruli_gvezeli",
+    "count": 1
+  }
+}

@@ -299,6 +299,11 @@ public class ModItems {
             List.of(new StatusEffectInstance(StatusEffects.REGENERATION, 120, 0)),
             false, null, 64
     );
+    public static final Item GURULI_GVEZELI = createFoodItem(
+            "guruli_gvezeli", 5, 2.3f, false,
+            List.of(new StatusEffectInstance(StatusEffects.ABSORPTION, 120, 0)),
+            false, null, 64
+    );
 
     public static final Item CHURCHKHELA = createFoodItem(
             "churchkhela", 4, 2.4f, false,
@@ -328,6 +333,11 @@ public class ModItems {
             "mwvadi", 2, 2.5f, false,
             List.of(new StatusEffectInstance(StatusEffects.STRENGTH, 200, 0)),
             false, Items.STICK, 64
+    );
+    public static final Item KHASHLAMA = createFoodItem(
+            "khashlama", 3, 1.5f, false,
+            List.of(new StatusEffectInstance(StatusEffects.STRENGTH, 200, 0)),
+            false, Items.BOWL, 64
     );
 
     public static final Item SHKMERULI = createFoodItem(
@@ -431,6 +441,8 @@ public class ModItems {
             entries.add(PKHALI);
             entries.add(LORI);
             entries.add(SHKMERULI);
+            entries.add(GURULI_GVEZELI);
+            entries.add(KHASHLAMA);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " J ",
+    " C ",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:bowl",
+    "C": "minecraft:cooked_beef",
+    "J": "minecraft:kelp"
+  },
+  "result": {
+    "id": "georgiancraft:khashlama",
+    "count": 1
+  }
+}
