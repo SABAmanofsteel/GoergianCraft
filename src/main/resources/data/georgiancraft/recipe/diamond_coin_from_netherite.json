@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {"item": "georgiancraft:netherite_coin"}
-  ],
-  "result": {"id": "georgiancraft:diamond_coin", "count": 8}
-}

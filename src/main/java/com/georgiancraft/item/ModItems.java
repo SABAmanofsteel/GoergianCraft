@@ -1,10 +1,7 @@
 package com.georgiancraft.item;
 
 import com.georgiancraft.georgiancraft;
-import com.georgiancraft.block.ModBlocks;
-import com.llamalad7.mixinextras.lib.apache.commons.ObjectUtils;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.ConsumableComponent;
 import net.minecraft.component.type.ConsumableComponents;
 import net.minecraft.entity.LivingEntity;
@@ -14,7 +11,6 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.consume.ApplyEffectsConsumeEffect;
-import net.minecraft.item.consume.ConsumeEffect;
 import net.minecraft.item.equipment.ArmorMaterial;
 import net.minecraft.item.equipment.EquipmentAsset;
 import net.minecraft.item.equipment.EquipmentAssetKeys;
@@ -30,13 +26,10 @@ import net.minecraft.world.World;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.EquipmentSlot;
 import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.ToolMaterial;
 
 import java.util.List;
-import java.util.ArrayList;
 import java.util.Map;
 
 
@@ -44,44 +37,6 @@ import java.util.Map;
 public class ModItems {
 
     public static final int BASE_DURABILITY = 15;
-    // ── Coins ──────────────────────────────────────────────────────────────────
-    // ── Coins ──────────────────────────────────────────────────────────────────
-    public static final Item STONE_COIN = registerItem(
-            "stone_coin",
-            new Item(new Item.Settings()
-                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "stone_coin")))
-            )
-    );
-    public static final Item COPPER_COIN = registerItem(
-            "copper_coin",
-            new Item(new Item.Settings()
-                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "copper_coin")))
-            )
-    );
-    public static final Item IRON_COIN = registerItem(
-            "iron_coin",
-            new Item(new Item.Settings()
-                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "iron_coin")))
-            )
-    );
-    public static final Item GOLD_COIN = registerItem(
-            "gold_coin",
-            new Item(new Item.Settings()
-                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "gold_coin")))
-            )
-    );
-    public static final Item DIAMOND_COIN = registerItem(
-            "diamond_coin",
-            new Item(new Item.Settings()
-                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "diamond_coin")))
-            )
-    );
-    public static final Item NETHERITE_COIN = registerItem(
-            "netherite_coin",
-            new Item(new Item.Settings()
-                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(georgiancraft.MOD_ID, "netherite_coin")))
-            )
-    );
 
     // ── Default (dark) Chokha ──────────────────────────────────────────────────
     public static final RegistryKey<EquipmentAsset> GUIDITE_ARMOR_MATERIAL_KEY = RegistryKey.of(
@@ -476,13 +431,6 @@ public class ModItems {
             entries.add(PKHALI);
             entries.add(LORI);
             entries.add(SHKMERULI);
-            //coins
-            entries.add(STONE_COIN);
-            entries.add(COPPER_COIN);
-            entries.add(IRON_COIN);
-            entries.add(GOLD_COIN);
-            entries.add(DIAMOND_COIN);
-            entries.add(NETHERITE_COIN);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
